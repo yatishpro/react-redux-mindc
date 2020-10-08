@@ -1,0 +1,47 @@
+.SimpleMcqImage{
+  color: black;
+}
+.question{
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+  h3 {
+    margin-right: 10px;
+  }
+}
+.answers{
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  margin: 30px;
+}
+.radio{
+
+  position: relative;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  margin-right: 20px;
+  padding: 10px;
+  cursor: pointer;
+  img{
+    cursor: pointer;
+  }
+}
+.inputHidden {
+  position: absolute;
+  left: -9999px;
+}
+input[type=radio]:checked + label>img {
+  border: 1px solid #fff;
+  box-shadow: 0 0 3px 3px #090;
+}
+input[type=radio] + label>img {
+  border: 1px dashed #444;
+  width: 150px;
+  height: 150px;
+  transition: 500ms all;
+}
+input[type=radio]:checked + label>img {
+  transform:scale(1.1);
+}

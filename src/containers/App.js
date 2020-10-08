@@ -1,13 +1,15 @@
-import React from 'react';
-import './App.css';
+import React from "react";
+import "./App.css";
 import { Provider } from "react-redux";
 import { createStore } from "redux";
 import rootReducer from "../reducers";
 import {BrowserRouter as Router, Route, Switch } from "react-router-dom";
 import LoginForm from "../components/LoginForm/LoginForm";
-import Home from "../components/Home/Home"
-import About from "../components/About/About"
+import Home from "../components/Home/Home";
+import About from "../components/About/About";
+
 const store = createStore(rootReducer);
+
 
 function App() {
 

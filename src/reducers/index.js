@@ -1,6 +1,8 @@
 import { combineReducers } from "redux";
-import appReducer from './appReducer';
+import appReducer from "./appReducer";
+import questionReducer from "./questionReducer";
 
 export default combineReducers({
-    app: appReducer
+    app: appReducer,
+    questions: questionReducer
 });

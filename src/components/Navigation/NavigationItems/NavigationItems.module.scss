@@ -12,8 +12,12 @@
   li{
     color: white;
     font-weight: bold;
-      padding: 15px  !important;
+      padding: 8px  !important;
   }
+}
+.Expand{
+  padding-right: 5px;
+  cursor: pointer;
 }
 
 @media (min-width: 500px) {

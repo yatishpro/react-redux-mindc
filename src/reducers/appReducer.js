@@ -6,7 +6,7 @@ import {
     } from "../actions/types";
 
 const initialState = {
-    isLoggedIn: false,
+    isLoggedIn: true,
     showSideDrawer: false
 }
 
